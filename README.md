@@ -1,4 +1,4 @@
-# Inbetween
+# Tween
 
 Tweening engine with embedded clock. Based on Tween.js' interface
 
@@ -9,17 +9,17 @@ Tweening engine with embedded clock. Based on Tween.js' interface
 ## Installation
 
 ```bash
-npm i inbetween
+npm i tween
 ```
 
 # Usage
 
 ```js
-Import Inbetween from 'inbetween'
+Import Tween from 'tween'
 const start = { x:0, y: 0 }
 const end = { x: 100, y: 100 }
 
-new Inbetween(start)
+new Tween(start)
     .to(end, 600)
     .easing('InOutCubic')
     .onUpdate(()=>{

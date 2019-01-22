@@ -1,5 +1,5 @@
 {
-	"name": "inbetween",
+	"name": "tween",
 	"version": "1.0.0",
 	"description": "",
 	"main": "lib/index.js",
@@ -20,13 +20,13 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/pitchdropobserver/inbetween.git"
+		"url": "git+https://github.com/pitchdropobserver/tween.git"
 	},
 	"author": "pitchdropobserver",
 	"license": "MIT",
-	"homepage": "https://github.com/pitchdropobserver/inbetween#readme",
+	"homepage": "https://github.com/pitchdropobserver/tween#readme",
 	"bugs": {
-		"url": "https://github.com/pitchdropobserver/inbetween/issues"
+		"url": "https://github.com/pitchdropobserver/tween/issues"
 	},
 	"devDependencies": {
 		"@babel/cli": "^7.2.3",

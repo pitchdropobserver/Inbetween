@@ -13,7 +13,7 @@ export interface ITweenState {
 
 let clock: Clock
 
-class Inbetween {
+class Tween {
 	// Internal Props...
 	private id: string
 	private initState: ITweenState // initial animation state
@@ -34,7 +34,7 @@ class Inbetween {
 		return this
 	}
 
-	public to(endState: ITweenState, animDur: number = DEFAULT_ANIM_DUR): Inbetween {
+	public to(endState: ITweenState, animDur: number = DEFAULT_ANIM_DUR): Tween {
 		const { initState } = this
 		this.animDur = animDur
 		this.stateDeltas = Object.keys(initState).reduce((prev, key) => {
@@ -44,32 +44,32 @@ class Inbetween {
 		return this
 	}
 
-	public fps(framePerSec: number = DEFAULT_FPS): Inbetween {
+	public fps(framePerSec: number = DEFAULT_FPS): Tween {
 		this.msPerFrame = 1000 / framePerSec
 		return this
 	}
 
-	public delay(milli: number = DEFAULT_ANIM_DELAY): Inbetween {
+	public delay(milli: number = DEFAULT_ANIM_DELAY): Tween {
 		this.msDelay = milli
 		return this
 	}
 
-	public easing(easeType: string = 'InOutCubic'): Inbetween {
+	public easing(easeType: string = 'InOutCubic'): Tween {
 		this.easingFunction = EASE[easeType]
 		return this
 	}
 
-	public onUpdate(callback: Function): Inbetween {
+	public onUpdate(callback: Function): Tween {
 		this.userOnUpdateCallback = callback
 		return this
 	}
 
-	public onComplete(callback: Function): Inbetween {
+	public onComplete(callback: Function): Tween {
 		this.userOnCompleteCallback = callback
 		return this
 	}
 
-	public start(): Inbetween {
+	public start(): Tween {
 		const { update, msPerFrame, msDelay } = this
 		if (clock === undefined) clock = new Clock()
 		clock.subscribe(update, msPerFrame, msDelay)
@@ -97,4 +97,4 @@ class Inbetween {
 	}
 }
 
-export default Inbetween
+export default Tween
