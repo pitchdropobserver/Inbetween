@@ -20,13 +20,13 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/pitchdropobserver/svg-cubic-bezier.git"
+		"url": "git+https://github.com/pitchdropobserver/inbetween.git"
 	},
 	"author": "pitchdropobserver",
 	"license": "MIT",
-	"homepage": "https://github.com/pitchdropobserver/svg-cubic-bezier#readme",
+	"homepage": "https://github.com/pitchdropobserver/inbetween#readme",
 	"bugs": {
-		"url": "https://github.com/pitchdropobserver/svg-cubic-bezier/issues"
+		"url": "https://github.com/pitchdropobserver/inbetween/issues"
 	},
 	"devDependencies": {
 		"@babel/cli": "^7.2.3",
