@@ -49,16 +49,16 @@ Methods you may call:
 
 Available easing options
 
-* `Linear` - no easing, no acceleration
-* `InQuad` - accelerating from zero velocity
-* `OutQuad` - decelerating to zero velocity
-* `InOutQuad` - acceleration util halfway, then deceleration
-* `InCubic` - accelerating from zero velocity
-* `OutCubic` - decelerating to zero velocity
-* `InOutCubic` - acceleration util halfway, then deceleration
-* `InQuart` - accelerating from zero velocity
-* `OutQuart` - decelerating to zero velocity
-* `InOutQuart` - acceleration util halfway, then deceleration
-* `InQuint` - accelerating from zero velocity
-* `OutQuint` - decelerating to zero velocity
-* `InOutQuint` - acceleration util halfway, then deceleration
+* `'Linear'` - no easing, no acceleration
+* `'InQuad'` - accelerating from zero velocity
+* `'OutQuad'` - decelerating to zero velocity
+* `'InOutQuad'` - acceleration util halfway, then deceleration
+* `'InCubic'` - accelerating from zero velocity
+* `'OutCubic'` - decelerating to zero velocity
+* `'InOutCubic'` - acceleration util halfway, then deceleration
+* `'InQuart'` - accelerating from zero velocity
+* `'OutQuart'` - decelerating to zero velocity
+* `'InOutQuart'` - acceleration util halfway, then deceleration
+* `'InQuint'` - accelerating from zero velocity
+* `'OutQuint'` - decelerating to zero velocity
+* `'InOutQuint'` - acceleration util halfway, then deceleration
