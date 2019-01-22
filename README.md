@@ -1,4 +1,4 @@
-# tween
+# inbtwn
 
 Lightweight tweening engine with embedded clock in plain js. Based on GreenSock's interface.
 
@@ -9,13 +9,13 @@ Lightweight tweening engine with embedded clock in plain js. Based on GreenSock'
 ## Installation
 
 ```bash
-npm i tween
+npm i inbtwn
 ```
 
 # Usage
 
 ```js
-Import Tween from 'tween'
+Import Tween from 'inbtwn'
 const start = { x:0, y: 0 }
 const end = { x: 100, y: 100 }
 
