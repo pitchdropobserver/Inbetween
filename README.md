@@ -23,7 +23,7 @@ new Tween(start)
     .to(end, 600)
     .easing('InOutCubic')
     .onUpdate(()=>{
-		console.log(start.x, start.y)
+        console.log(start.x, start.y)
     })
     .onComplete(()=>{
         console.log('Tween completed!')
