@@ -1,6 +1,6 @@
-# Tween
+# tween
 
-Tweening engine with embedded clock. Based on Tween.js' interface
+Lightweight tweening engine with embedded clock in plain js. Based on GreenSock's interface.
 
 ## Examples
 
